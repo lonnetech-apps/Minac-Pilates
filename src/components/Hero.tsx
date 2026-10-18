@@ -9,13 +9,13 @@ interface HeroProps {
 export const Hero: React.FC<HeroProps> = ({ onOpenSchedule }) => {
   return (
     <section id="inicio" className="relative overflow-hidden pt-8 pb-14 md:pt-14 md:pb-20">
-      {/* Top right decorative background arch like in the mockup */}
+      {/* Top right decorative background arch matching the new logo */}
       <div 
-        className="pointer-events-none absolute -top-12 -right-12 w-64 h-64 md:w-96 md:h-96 rounded-full border-[28px] md:border-[42px] border-[#B85B38]/70 opacity-80 -z-10 translate-x-12 -translate-y-8"
+        className="pointer-events-none absolute -top-12 -right-12 w-64 h-64 md:w-96 md:h-96 rounded-full border-[28px] md:border-[42px] border-[#FF4D00]/70 opacity-80 -z-10 translate-x-12 -translate-y-8"
         aria-hidden="true"
       />
       <div 
-        className="pointer-events-none absolute top-48 right-10 w-44 h-44 rounded-full border-[18px] border-[#8C9884]/30 opacity-60 -z-10"
+        className="pointer-events-none absolute top-48 right-10 w-44 h-44 rounded-full border-[18px] border-[#236B35]/40 opacity-60 -z-10"
         aria-hidden="true"
       />
 
@@ -44,7 +44,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenSchedule }) => {
             <div className="pt-2 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <button
                 onClick={onOpenSchedule}
-                className="group inline-flex items-center gap-3 px-7 py-3.5 rounded-full bg-[#B85B38] text-white font-medium text-sm sm:text-base tracking-wide shadow-md hover:bg-[#A14D2C] hover:shadow-lg transition-all duration-200 active:scale-[0.98] whitespace-nowrap"
+                className="group inline-flex items-center gap-3 px-7 py-3.5 rounded-full bg-[#FF4D00] text-white font-medium text-sm sm:text-base tracking-wide shadow-md hover:bg-[#E04400] hover:shadow-lg transition-all duration-200 active:scale-[0.98] whitespace-nowrap"
               >
                 <MessageCircle className="w-5 h-5 fill-current" />
                 <span>Agendar pelo WhatsApp</span>

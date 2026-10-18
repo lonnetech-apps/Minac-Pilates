@@ -54,7 +54,7 @@ export const ScheduleModal: React.FC<ScheduleModalProps> = ({
         {/* Header pattern */}
         <div className="bg-[#3D4739] text-[#FAF8F5] px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-full bg-[#B85B38]/90 flex items-center justify-center text-white">
+            <div className="w-9 h-9 rounded-full bg-[#FF4D00] flex items-center justify-center text-white shadow-sm">
               <MessageCircle className="w-5 h-5" />
             </div>
             <div>
@@ -168,14 +168,14 @@ export const ScheduleModal: React.FC<ScheduleModalProps> = ({
                 placeholder="Ex: Sinto dores nas costas, ou quero fortalecer postura..."
                 value={objective}
                 onChange={(e) => setObjective(e.target.value)}
-                className="w-full p-3 bg-white border border-[#DDD5C5] rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#B85B38] focus:border-transparent transition resize-none"
+                className="w-full p-3 bg-white border border-[#DDD5C5] rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#FF4D00] focus:border-transparent transition resize-none"
               />
             </div>
 
             <div className="pt-2">
               <button
                 type="submit"
-                className="w-full flex items-center justify-center gap-2 py-3 px-6 bg-[#B85B38] hover:bg-[#A34E2E] text-white font-medium text-sm rounded-xl shadow-md hover:shadow-lg transition-all duration-200 active:scale-[0.99]"
+                className="w-full flex items-center justify-center gap-2 py-3 px-6 bg-[#FF4D00] hover:bg-[#E04400] text-white font-medium text-sm rounded-xl shadow-md hover:shadow-lg transition-all duration-200 active:scale-[0.99]"
               >
                 <MessageCircle className="w-4 h-4 fill-current" />
                 <span>Confirmar e Conversar no WhatsApp</span>

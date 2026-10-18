@@ -25,9 +25,9 @@ export const Footer: React.FC = () => {
               href="https://wa.me/5511916636635"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-[#B85B38] transition-colors"
+              className="flex items-center gap-2 hover:text-[#FF4D00] transition-colors"
             >
-              <Phone className="w-4 h-4 text-[#B85B38]" />
+              <Phone className="w-4 h-4 text-[#FF4D00]" />
               <span className="font-semibold">(11) 91663-6635</span>
             </a>
 
@@ -36,9 +36,9 @@ export const Footer: React.FC = () => {
               href="https://www.minac.com.br"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-[#B85B38] transition-colors"
+              className="flex items-center gap-2 hover:text-[#FF4D00] transition-colors"
             >
-              <Globe className="w-4 h-4 text-[#B85B38]" />
+              <Globe className="w-4 h-4 text-[#FF4D00]" />
               <span>www.minac.com.br</span>
             </a>
 
@@ -49,7 +49,7 @@ export const Footer: React.FC = () => {
                   href="https://instagram.com" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="hover:text-[#B85B38] transition-colors p-1"
+                  className="hover:text-[#FF4D00] transition-colors p-1"
                   aria-label="Instagram MINAC"
                 >
                   <Instagram className="w-4 h-4" />
@@ -58,7 +58,7 @@ export const Footer: React.FC = () => {
                   href="https://facebook.com" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="hover:text-[#B85B38] transition-colors p-1"
+                  className="hover:text-[#FF4D00] transition-colors p-1"
                   aria-label="Facebook MINAC"
                 >
                   <Facebook className="w-4 h-4" />
@@ -67,7 +67,7 @@ export const Footer: React.FC = () => {
                   href="https://youtube.com" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="hover:text-[#B85B38] transition-colors p-1"
+                  className="hover:text-[#FF4D00] transition-colors p-1"
                   aria-label="YouTube MINAC"
                 >
                   <Youtube className="w-4 h-4" />

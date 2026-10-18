@@ -1,0 +1,53 @@
+<svg viewBox="0 0 940 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .subtitle {
+        font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+        font-weight: 800;
+        fill: #262927;
+      }
+    </style>
+  </defs>
+
+  <!-- Letter M (Orange) -->
+  <!-- Left bar: 20 to 42, y: 15 to 155 -->
+  <!-- Right bar: 158 to 180, y: 15 to 155 -->
+  <!-- Curve connecting them: top inner (42, 15) curves down to (100, 126), up to (158, 15) -->
+  <!-- Bottom inner (42, 38) curves down to (100, 148), up to (158, 38) -->
+  <path
+    d="M 20 15 L 42 15 L 42 28 C 58 88 78 126 100 126 C 122 126 142 88 158 28 L 158 15 L 180 15 L 180 155 L 158 155 L 158 48 C 142 108 122 148 100 148 C 78 148 58 108 42 48 L 42 155 L 20 155 Z"
+    fill="#FF4D00"
+  />
+
+  <!-- Letter I (Orange) -->
+  <rect x="238" y="15" width="22" height="140" fill="#FF4D00" />
+
+  <!-- Letter N (Green Arch) -->
+  <path
+    d="M 330 155 L 352 155 L 352 85 C 352 57.386 374.386 35 402 35 C 429.614 35 452 57.386 452 85 L 452 155 L 474 155 L 474 85 C 474 45.235 441.765 13 402 13 C 362.235 13 330 45.235 330 85 Z"
+    fill="#236B35"
+  />
+
+  <!-- Letter A (Orange Chevron) -->
+  <path
+    d="M 548 155 L 572 155 L 610 52 C 613 44 619 40 625 40 C 631 40 637 44 640 52 L 678 155 L 702 155 L 657 38 C 650 20 638 12 625 12 C 612 12 600 20 593 38 Z"
+    fill="#FF4D00"
+  />
+
+  <!-- Letter C (Orange C-Curve) -->
+  <path
+    d="M 915 15 L 840 15 C 801.34 15 770 46.34 770 85 C 770 123.66 801.34 155 840 155 L 915 155 L 915 133 L 840 133 C 813.49 133 792 111.51 792 85 C 792 58.49 813.49 37 840 37 L 915 37 Z"
+    fill="#FF4D00"
+  />
+
+  <!-- Subtitle PILATES E FISIOTERAPIA -->
+  <text
+    x="330"
+    y="212"
+    class="subtitle"
+    font-size="28"
+    letter-spacing="0.25em"
+    textLength="585"
+    lengthAdjust="spacing"
+  >PILATES E FISIOTERAPIA</text>
+</svg>

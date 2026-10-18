@@ -33,7 +33,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSchedule }) => {
               <a
                 key={link.label}
                 href={link.href}
-                className="whitespace-nowrap shrink-0 transition-colors hover:text-[#B85B38] relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#B85B38] hover:after:w-full after:transition-all after:duration-200"
+                className="whitespace-nowrap shrink-0 transition-colors hover:text-[#FF4D00] relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-[#FF4D00] hover:after:w-full after:transition-all after:duration-200"
               >
                 {link.label}
               </a>

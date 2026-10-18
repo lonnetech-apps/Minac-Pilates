@@ -56,7 +56,7 @@ export const TeamSection: React.FC<TeamSectionProps> = ({ onOpenTeamModal }) => 
                 >
                   Mais saúde,<br />
                   o mesmo propósito:<br />
-                  <span className="text-[#B85B38] font-semibold">seu bem-estar.</span>
+                  <span className="text-[#FF4D00] font-semibold">seu bem-estar.</span>
                 </p>
               </div>
               
