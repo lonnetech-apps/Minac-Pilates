@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #2D312E;
+    background-color: #F8F6F2;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Lora', Georgia, serif;
+  }
+}
+
+.font-script {
+  font-family: 'Caveat', cursive;
+}
+
+.font-serif-custom {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-sans-custom {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}

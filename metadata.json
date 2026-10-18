@@ -1,0 +1,6 @@
+{
+  "name": "MINAC Pilates e Fisioterapia",
+  "description": "Cuidado individualizado para o seu corpo, movimento e bem-estar com Pilates, Fisioterapia e Terapias Manuais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
