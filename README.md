@@ -6,27 +6,37 @@ Criada com **React 19**, **Vite**, **Tailwind CSS**, **Lucide Icons** e **Motion
 
 ---
 
-## 🚀 Como publicar no GitHub Pages (Deixar Online Grátis)
+## 🚀 Como abrir e deixar online no GitHub Pages
 
-Você pode hospedar este site gratuitamente no GitHub Pages seguindo estes passos simples:
+O projeto já está 100% configurado para o GitHub Pages com caminhos relativos (`base: './'`) e arquivo de workflow automatizado.
 
-### Passo 1: Subir o código para o seu repositório no GitHub
-```bash
-git init
-git add .
-git commit -m "feat: landing page MINAC Pilates e Fisioterapia"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
-git push -u origin main
-```
+Escolha uma das 2 opções abaixo para colocar no ar:
 
-### Passo 2: Ativar o GitHub Pages com GitHub Actions
+---
+
+### Opção 1: Automático via GitHub Actions (Recomendado)
+
 1. No seu repositório no GitHub, clique na aba **Settings** (Configurações).
 2. No menu lateral esquerdo, clique em **Pages**.
-3. Em **Build and deployment** > **Source**, selecione **GitHub Actions**.
-4. O GitHub sugerirá o fluxo de **Static HTML** ou **Vite**. O arquivo `.github/workflows/deploy.yml` incluso neste projeto já cuida do build e publicação automaticamente a cada push!
+3. Em **Build and deployment** > **Source**, mude de *"Deploy from a branch"* para:
+   👉 **GitHub Actions**
+4. Pronto! O GitHub executará o workflow `.github/workflows/deploy.yml` automaticamente.
+5. Em cerca de 1 minuto, na mesma página **Settings > Pages** ou na aba **Actions**, aparecerá o link público do seu site:
+   `https://SEU_USUARIO.github.io/NOME_DO_REPOSITORIO/`
 
-*(Ou se preferir publicar com 1 clique no Vercel ou Netlify, basta conectar sua conta do GitHub e selecionar o repositório — o comando de build `npm run build` e diretório de saída `dist` são detectados automaticamente).*
+---
+
+### Opção 2: Publicar com um único comando (`npm run deploy`)
+
+Se você preferir publicar diretamente pelo terminal:
+
+1. Execute no terminal:
+   ```bash
+   npm run deploy
+   ```
+2. Esse comando compila o projeto e cria automaticamente a branch `gh-pages` no seu repositório.
+3. No GitHub, vá em **Settings** > **Pages** e certifique-se de que a branch selecionada é `gh-pages` e a pasta é `/ (root)`.
+4. O link público estará ativo na hora!
 
 ---
 
